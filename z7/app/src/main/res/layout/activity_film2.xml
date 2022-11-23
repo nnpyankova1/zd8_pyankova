@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fom"
+    tools:context=".Film2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="328dp"
+        android:layout_height="52dp"
+        android:text="Волейбол"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="italic"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.733" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="295dp"
+        android:layout_height="429dp"
+        android:background="@drawable/a2"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="318dp"
+        android:layout_height="51dp"
+        android:text="Сусуму Мицунака"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <TextView
+        android:layout_width="321dp"
+        android:layout_height="77dp"
+        android:text="Жанры: Аниме, комедия, спорт"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="44dp"
+        android:layout_height="46dp"
+        android:onClick="clicks8"
+        android:background="@drawable/strel"
+        android:layout_marginStart="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
